@@ -1,0 +1,28 @@
+{
+    "name": "hydface/backend-tools-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei Lissovski",
+            "email": "sergei.lissovski@modera.org",
+            "homepage": "http://sergei.lissovski.org/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.6",
+        "hydface/mjr-integration-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Modera\\BackendToolsBundle": ""
+        }
+    },
+    "target-dir": "Modera/BackendToolsBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    }
+}
